@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/core-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-Command-Library-book/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-library_v2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-library_v2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-library_with_members/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-library_with_members/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-command-v2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-editeur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-query-join/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-query-library/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-query-library_v2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-query-library_v2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/state_stored_library/src/main/java" charset="UTF-8" />
+  </component>
+</project>

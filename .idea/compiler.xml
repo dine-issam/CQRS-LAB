@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-command-library_with_members" />
+        <module name="ms-Command-Library-book" />
+        <module name="ms-command-library" />
+        <module name="state_stored_library" />
+        <module name="core-api" />
+        <module name="ms-query-join" />
+        <module name="ms-query-library" />
+        <module name="ms-editeur" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-command-library (1)" target="17" />
+      <module name="ms-command-v2" target="17" />
+      <module name="ms-query-library (1)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core-api" options="-parameters" />
+      <module name="ms-Command-Library-book" options="-parameters" />
+      <module name="ms-command-library" options="-parameters" />
+      <module name="ms-command-library (1)" options="-parameters" />
+      <module name="ms-command-library_with_members" options="-parameters" />
+      <module name="ms-command-v2" options="-parameters" />
+      <module name="ms-editeur" options="-parameters" />
+      <module name="ms-query-join" options="-parameters" />
+      <module name="ms-query-library" options="-parameters" />
+      <module name="ms-query-library (1)" options="-parameters" />
+      <module name="state_stored_library" options="-parameters" />
+    </option>
+  </component>
+</project>

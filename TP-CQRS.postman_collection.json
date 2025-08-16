@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "7c413c0b-9e4e-48c4-8395-d5cfc5009381",
+		"name": "TP-CQRS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15255541"
+	},
+	"item": [
+		{
+			"name": "Add a Library",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"libraryId\":\"1\",\r\n    \"name\":\"eni\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8083/command/library",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"command",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a Book to a Library",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isbn\":\"1llf5\",\r\n    \"title\":\"SpringBoot\",\r\n    \"editeurId\":\"e1\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8083/command/library/1/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"command",
+						"library",
+						"1",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/command/library/1/1llf5",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"command",
+						"library",
+						"1",
+						"1llf5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add an Editeur",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"editeurId\":\"e1\",\r\n    \"name\":\"lloe\",\r\n    \"pays\":\"algerie\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8084/command/editeur",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"command",
+						"editeur"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Library From ms-Command-V2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"libraryId\":\"2\",\r\n    \"name\":\"kzj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8085/command/library",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"command",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add book From ms-Command-V2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isbn\":\"4lfl\",\r\n    \"title\":\"Python\",\r\n    \"editeurId\":\"e1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8085/command/library/1/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"command",
+						"library",
+						"1",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Book From ms-Command-V2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8085/command/library/2/4lfl",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"command",
+						"library",
+						"2",
+						"4lfl"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

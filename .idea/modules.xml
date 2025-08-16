@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP-CQRS-2024-Student.iml" filepath="$PROJECT_DIR$/TP-CQRS-2024-Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-command-library_with_members/ms-command-library_with_members.iml" filepath="$PROJECT_DIR$/ms-command-library_with_members/ms-command-library_with_members.iml" />
+      <module fileurl="file://$PROJECT_DIR$/state_stored_library/state_stored_library.iml" filepath="$PROJECT_DIR$/state_stored_library/state_stored_library.iml" />
+    </modules>
+  </component>
+</project>
